@@ -80,3 +80,47 @@
     color: #000;
     font-size: 20px;
 }
+
+.ABOUT {
+    position: relative;
+    width: 40%;
+    margin-top: 12px;
+    background-color: rgb(250, 220, 217);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.ABOUT .text-wrapper {
+    margin: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    color: #000;
+    font-size: 40px;
+}
+
+.ABOUT .text-wrapper-1 {
+    margin: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: #000;
+    font-size: 20px;
+}
+
+.ABOUT .text-wrapper-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    color: #000;
+    font-size: 20px;
+    justify-content: space-between;
+    color: rgb(217, 130, 119);
+}
+
+.stack {
+    background-color: rgb(254, 243, 242);
+    border-radius: 5px;
+    margin: 2px;
+    padding: 3px;
+}
