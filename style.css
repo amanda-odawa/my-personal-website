@@ -1,3 +1,82 @@
-body {
+.HEADER {
+    width: auto;
+    height: 100px;
+    margin-top: 12px;
+    background-color: rgb(250, 220, 217);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.HEADER .NAV {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 42px;
+    left: 24px;
+}
+
+.HEADER .LOGO {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.HEADER .text-wrapper {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.HEADER .text-wrapper-2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.HEADER .PAGE-LINKS {
+    position: relative;
+    width: 303px;
+    height: 10px;
+    margin-right: 42px;
+}
+
+.HEADER .frame {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.HEADER .div {
+    margin-top: -15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    font-size: 16px;   
+}
+
+.HEADER .nav-item {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.HEADER .nav-item:hover {
+    color: rgb(217, 130, 119);
+}
+
+.HOME {
+    position: relative;
+    width: 40%;
+    margin-top: 12px;
+    background-color: rgb(250, 220, 217);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.HOME .text-wrapper {
     margin: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    color: #000;
+    font-size: 20px;
 }
