@@ -1,10 +1,17 @@
 .HEADER {
-    width: auto;
-    height: 100px;
-    margin-top: 12px;
+    width: 100%;
+    height: 70px;
     background-color: rgb(250, 220, 217);
-    border-radius: 20px;
-    overflow: hidden;
+    border-style: outset;
+    position: fixed;
+    margin-top: -100px;
+    margin-left: -7px;
+    margin-right: 7px;
+    z-index: 10;
+}
+
+.main {
+    margin-top: 100px;
 }
 
 .HEADER .NAV {
@@ -12,7 +19,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    top: 42px;
+    top: 20px;
     left: 24px;
 }
 
@@ -75,11 +82,24 @@
 }
 
 .INTRO .text-wrapper {
+    margin-top: 7px;
+    margin-bottom: -13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: rgb(217, 130, 119);
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 3px 2px rgb(250, 220, 217);
+}
+
+.INTRO .text-wrapper-1 {
     margin: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
     color: rgb(0, 0, 0);
     font-size: 30px;
+    text-align: center;
 }
 
 .ABOUT {
@@ -87,7 +107,6 @@
     width: auto;
     margin-top: 12px;
     background-color: rgb(250, 220, 217);
-    border-radius: 20px;
     overflow: hidden;
 }
 
@@ -106,6 +125,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
     font-size: 20px;
+    text-align: center;
 }
 
 .ABOUT .text-wrapper-2 {
@@ -131,9 +151,8 @@
 .PROJECTS {
     position: relative;
     width: auto;
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: rgb(250, 220, 217);
-    border-radius: 20px;
     overflow: hidden;
 }
 
