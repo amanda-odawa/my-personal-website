@@ -64,26 +64,27 @@
     color: rgb(217, 130, 119);
 }
 
-.HOME {
+.INTRO {
     position: relative;
-    width: 40%;
+    width: auto;
     margin-top: 12px;
-    background-color: rgb(250, 220, 217);
     border-radius: 20px;
     overflow: hidden;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
-.HOME .text-wrapper {
-    margin: 5%;
+.INTRO .text-wrapper {
+    margin: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
-    color: #000;
-    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
 }
 
 .ABOUT {
     position: relative;
-    width: 40%;
+    width: auto;
     margin-top: 12px;
     background-color: rgb(250, 220, 217);
     border-radius: 20px;
@@ -91,36 +92,98 @@
 }
 
 .ABOUT .text-wrapper {
-    margin: 5%;
+    margin-top: 20px;
+    margin-bottom: -15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 350;
-    color: #000;
+    color: rgb(0, 0, 0);
     font-size: 40px;
+    text-align: center;
 }
 
 .ABOUT .text-wrapper-1 {
-    margin: 5%;
+    margin: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
-    color: #000;
     font-size: 20px;
 }
 
 .ABOUT .text-wrapper-2 {
     display: flex;
     flex-wrap: wrap;
-    margin: 5%;
+    margin: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 350;
-    color: #000;
     font-size: 20px;
-    justify-content: space-between;
-    color: rgb(217, 130, 119);
+    justify-content: center;
+    color: rgb(255, 255, 255);
 }
 
 .stack {
-    background-color: rgb(254, 243, 242);
+    background-color: rgb(248, 175, 166);
     border-radius: 5px;
-    margin: 2px;
-    padding: 3px;
+    margin-left: 9px;
+    margin-bottom: 3px;
+    margin-top: 7px;
+    padding: 5px 10px;
+}
+
+.PROJECTS {
+    position: relative;
+    width: auto;
+    margin-top: 20px;
+    background-color: rgb(250, 220, 217);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.PROJECTS .text-wrapper {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+}
+
+.PROJECTS .text-wrapper-1 {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.PROJECTS .download {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 360;
+    font-size: 20px;
+    text-align: center;
+}
+
+.PROJECTS .pdf {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.PROJECTS .pdf:hover {
+    color: rgb(217, 130, 119);
+}
+
+#images img {
+    margin-top: -7px;
+    max-width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#line {
+    margin: 2%;
+    margin-top: 23px;
+    margin-bottom: -17px;
+    border: 1px solid rgb(217, 130, 119);
 }
