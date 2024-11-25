@@ -50,3 +50,12 @@ Feel free to contribute! Please follow the steps below:
     ```
 5. **Open a Pull Request**
 
+## License
+*Distributed under the MIT License.*
+Explanation: Provides legal information about the use and distribution of your project.
+
+## Contact
+Amanda Odawa - [odawaamanda@gmail.com](mailto:odawaamanda@gmail.com)
+
+Project Link: [https://github.com/amanda-odawa/my-personal-website.git](https://github.com/amanda-odawa/my-personal-website.git)
+
