@@ -18,5 +18,6 @@ A simple personal website showcasing my web developmemnt portfolio. It is built 
 - Beautiful interface
 
 ## Demo
-[View Live Demo]()
+[View Live Demo](https://amanda-odawa.github.io/my-personal-website/)
 
+## Installation
