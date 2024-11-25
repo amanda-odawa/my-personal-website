@@ -234,7 +234,7 @@
     list-style: none;
     display: flex;
     justify-content: center;
-    margin: 2em 0;
+    
     padding: 0;
   }
   
@@ -243,3 +243,11 @@
     align-content: center;
   }
   
+  .FOOTER p {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 350;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
